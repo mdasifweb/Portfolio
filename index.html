@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-area">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>John Doe</h1>
+                    </a>
+                </div>
+                <div class="menu-icon"  onclick="navFunction()" >
+                    <div class=icon>
+                        <img src="icon.png" alt="">
+                    </div>
+                </div>
+                <nav class="main-nav" id="main-nav">
+                    <a href="index.html">Home</a>  
+                    <a href="#about-area">About</a>
+                    <a href="#service-area">Service</a>
+                    <a href="#contact-area">Contact</a>                 
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main-area">
+        <section class="hero-area">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2>I'm John Doe</h2>
+                        <p>Font-End Web Development Expert</p>
+                        <a href="" class="theme-button"> Contact Me</a>
+                    </div>
+                    <div class="hero-image">
+                        <img src="avatar.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-area" id="about-area">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="about.png" alt="">
+                    </div>
+                    <div class="about-text">
+                        <h2>More About It</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore qui commodi explicabo adipisci minus saepe nemo enim voluptates expedita vel, nisi quo hic debitis quidem praesentium odit doloremque magni! Vitae.
+                        </p>
+                        <a href="#" class="theme-button">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service-area" id="service-area">
+            <div class="container">
+                <div class="section-heading">
+                    <h3>services</h3>
+                    <h2>What I Do</h2>
+                </div>
+                <div class="service-content">
+                    <div class="singel-service">
+                        <h3>Website Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quibusdam facere voluptates velit tenetur. Adipisci cumque consectetur voluptas molestias tempore!
+
+                        </p>
+                        <a href="#" class="theme-button-small">Learn More</a>
+                    </div>
+                    <div class="singel-service">
+                        <h3>Website Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quibusdam facere voluptates velit tenetur. Adipisci cumque consectetur voluptas molestias tempore!
+
+                        </p>
+                        <a href="#" class="theme-button-small">Learn More</a>
+                    </div>
+                    <div class="singel-service">
+                        <h3>Website Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quibusdam facere voluptates velit tenetur. Adipisci cumque consectetur voluptas molestias tempore!
+
+                        </p>
+                        <a href="#" class="theme-button-small">Learn More</a>
+                    </div>
+                    <div class="singel-service">
+                        <h3>Website Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quibusdam facere voluptates velit tenetur. Adipisci cumque consectetur voluptas molestias tempore!
+
+                        </p>
+                        <a href="#" class="theme-button-small">Learn More</a>
+                    </div>
+                    <div class="singel-service">
+                        <h3>Website Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quibusdam facere voluptates velit tenetur. Adipisci cumque consectetur voluptas molestias tempore!
+
+                        </p>
+                        <a href="#" class="theme-button-small">Learn More</a>
+                    </div>
+                    <div class="singel-service">
+                        <h3>Website Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quibusdam facere voluptates velit tenetur. Adipisci cumque consectetur voluptas molestias tempore!
+
+                        </p>
+                        <a href="#" class="theme-button-small">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-area" id="contact-area">
+            <div class="container">
+                <div class="section-heading">
+                    <h3>Contact</h3>
+                    <h2>Feel Free To Contact Me </h2>
+                </div>
+                <div class="contact-content">
+                    <form action="">
+                        <input type="text" placeholder="First Name" id="first">
+                        <input type="text" placeholder="Last Name" id="last">
+                        <input type="email" placeholder="Email Address" id="email">
+                        <input type="tel" placeholder="Phone Number" id="phone">
+                        <textarea  id="message"  rows="5" placeholder="Message"></textarea>
+                        <input type="Submit"  value="Send Message" id="submit">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-area">
+        <div class="container">
+            <p>&copy;John Doe 2022, All Rights Reserved</p>
+        </div>
+    </footer>
+    <script>
+        function navFunction(){
+            var nav = document.getElementById("main-nav");
+            nav.classList.toggle("show-nav");
+        }
+    </script>
+</body>
+</html>
